@@ -4,3 +4,4 @@
 /coverage*
 /gasReporterOutput.json
 /typechain/
+/.openzeppelin/
