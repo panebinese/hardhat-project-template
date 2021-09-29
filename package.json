@@ -5,6 +5,16 @@
   "author": "typingmonkey <panebinese@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "test": "REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat run scripts/deploy.js",
+    "lint:eslint": "eslint .",
+    "lint:solhint": "solhint contract",
+    "format": "prettier --write ."
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-etherscan": "^2.1.3",
