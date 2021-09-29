@@ -4,5 +4,8 @@
   "description": "A hardhat-project-template",
   "author": "typingmonkey <panebinese@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "hardhat": "^2.6.4"
+  }
 }
