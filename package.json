@@ -14,7 +14,8 @@
     "deploy": "hardhat run scripts/deploy.js",
     "lint:eslint": "eslint .",
     "lint:solhint": "solhint contract",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "analyze": "slither --filter-paths node_modules ."
   },
   "devDependencies": {
     "@defi-wonderland/smock": "^2.0.6",
