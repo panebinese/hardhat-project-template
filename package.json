@@ -1,0 +1,8 @@
+{
+  "name": "hardhat-project-template",
+  "version": "0.0.1",
+  "description": "A hardhat-project-template",
+  "author": "typingmonkey <panebinese@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
