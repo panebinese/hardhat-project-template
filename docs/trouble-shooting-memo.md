@@ -37,3 +37,11 @@ slither --filter-paths node_modules .
 ```
 
 ref: [Does not work with npm install'ed libraries #168](https://github.com/crytic/slither/issues/168)
+
+# TypeScript
+
+## SOLVED: problem: vscode does not type annotation for HRE
+
+### Solution
+
+restart vscode
